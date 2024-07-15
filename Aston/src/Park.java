@@ -7,7 +7,7 @@ public class Park {
             this.info = info;
             this.workTime = workTime;
             this.price = price;
-            System.out.println("\nАтракцион: " + info +"\n" + "График работы: " + workTime +"\n" + "Цена: " + price);
+            System.out.println("\nАтракцион: " + info +"\nГрафик работы: " + workTime +"\nЦена: " + price);
         }
     }
 }
