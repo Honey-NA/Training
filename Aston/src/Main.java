@@ -1,10 +1,9 @@
-import java.awt.*;
-
 public class Main {
+
     public static void main(String[] args) {
         //Задание №1
-        //Создаем животных
-        System.out.println("Сейчас " + Animal.number + " животных.");
+        //Создание животных
+        System.out.println("Сейчас " + Animal.animalNumber + " животных.");
         Animal dog1 = new Dog("Бобик");
         Animal cat1 = new Cat("Масик");
         Animal cat2 = new Cat("Киса");
@@ -22,8 +21,8 @@ public class Main {
         dog1.swim(0);
         dog1.swim(-1);
         dog1.swim(11);
-        //Проверка счетчика животных, котов и собак
-        System.out.println("Сейчас " + Animal.number + " животных.");
+        //Проверки счетчика животных, котов и собак
+        System.out.println("Сейчас " + Animal.animalNumber + " животных.");
         System.out.println("Сейчас " + Cat.catNumber + " котов.");
         System.out.println("Сейчас " + Dog.dogNumber + " собак.");
         //Наполнение миски и кормление котов
@@ -45,10 +44,28 @@ public class Main {
         System.out.println("В миске осталось " + Miska.miska + " еды.");
         //Повторное наполнение миски и проверка сколько в ней еды
         Miska.getFood(100);
+
         //Задание №2.
-        //Вычисление периметра и площади фигур
-        Figure rect1 = new Figure("Прямоугольник №1");
-        rect1.Prec(4,5);
-        rect1.Srec(4,5);
+        //Создание фигур
+        Figure rect1 =  new Rectangle("Прямоугольник №1",4,5);
+        Figure tri1 =  new Triangle("Треугольник №1",3,4,5);
+        Figure cir1 =  new Circle("Круг №1",5);
+        //Рассчет перимета и площади фигур. Присваивание цветов заливки и границ.
+        rect1.p();
+        rect1.s();
+        rect1.bgColor("black");
+        rect1.brColor("white");
+        tri1.p();
+        tri1.s();
+        tri1.bgColor("red");
+        tri1.brColor("yellow");
+        cir1.p();
+        cir1.s();
+        cir1.bgColor("blue");
+        cir1.brColor("pink");
+        //Вывод характеристик в консоль
+        rect1.getValues();
+        tri1.getValues();
+        cir1.getValues();
     }
 }

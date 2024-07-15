@@ -1,3 +1,4 @@
+//Задание №1
 public class Miska {
     public static int miska = 0;
     public static void getFood(int x){

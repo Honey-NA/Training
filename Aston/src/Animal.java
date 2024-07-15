@@ -1,10 +1,12 @@
+//Задание №1
 public abstract class Animal {
-    protected static int number = 0;
-    protected String name;
-    protected Animal(String name) {
+    public static int animalNumber = 0;
+    public String name;
+    public abstract void run(int x);
+    public abstract void swim(int x);
+    public Animal(String name) {
         this.name = name;
     }
-    protected abstract void run(int x);
-    protected abstract void swim(int x);
+
 }
 
