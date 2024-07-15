@@ -1,10 +1,10 @@
 public abstract class Animal {
-    static int number = 0;
-    public String name;
-    public Animal(String name) {
+    protected static int number = 0;
+    protected String name;
+    protected Animal(String name) {
         this.name = name;
     }
-    public abstract void run(int x);
-    public abstract void swim(int y);
+    protected abstract void run(int x);
+    protected abstract void swim(int x);
 }
 
