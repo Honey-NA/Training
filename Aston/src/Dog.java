@@ -1,5 +1,6 @@
 //Задание №1
 public class Dog extends Animal{
+
     public static int dogNumber = 0;
     public Dog(String name) {
         super(name);

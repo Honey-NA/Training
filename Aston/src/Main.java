@@ -4,9 +4,9 @@ public class Main {
         //Задание №1
         //Создание животных
         System.out.println("Сейчас " + Animal.animalNumber + " животных.");
-        Animal dog1 = new Dog("Бобик");
-        Animal cat1 = new Cat("Масик");
-        Animal cat2 = new Cat("Киса");
+        Dog dog1 = new Dog("Бобик");
+        Cat cat1 = new Cat("Масик");
+        Cat cat2 = new Cat("Киса");
         //Проверки животных на бег и плавание
         cat1.run(200);
         cat1.run(0);
@@ -25,8 +25,8 @@ public class Main {
         System.out.println(Animal.number());
         //Наполнение миски и кормление котов
         Miska.getFood(50);
-        ((Cat) cat1).eat(10);
-        ((Cat) cat2).eat(20);
+        cat1.eat(10);
+        cat2.eat(20);
         System.out.println("В миске осталось " + Miska.miska + " еды.");
         //Создание массива котов
         Cat[] catArray = new Cat[3];
