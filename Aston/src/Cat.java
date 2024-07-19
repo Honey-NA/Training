@@ -4,7 +4,6 @@ public class Cat extends Animal {
     public boolean fullness = false;
     public Cat(String name) {
         super(name);
-        System.out.println("Появился кот " + name + ".");
         animalNumber += 1;
         catNumber += 1;
     }

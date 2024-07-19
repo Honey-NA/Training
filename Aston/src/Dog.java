@@ -3,7 +3,6 @@ public class Dog extends Animal{
     public static int dogNumber = 0;
     public Dog(String name) {
         super(name);
-        System.out.println("Появилась собака " + name +".");
         animalNumber+=1;
         dogNumber+=1;
     }

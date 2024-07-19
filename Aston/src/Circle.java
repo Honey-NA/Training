@@ -2,7 +2,6 @@
 public class Circle extends Figure implements IGeometry {
     public int r;
     public Circle(String figureName, int r) {
-        System.out.println("Круг создан.");
         this.figureName = figureName;
         this.r = r;
     }

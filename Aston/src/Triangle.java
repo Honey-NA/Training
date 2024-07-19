@@ -4,7 +4,6 @@ public class Triangle extends Figure implements IGeometry {
     public int y;
     public int z;
     public Triangle(String figureName, int x, int y, int z) {
-        System.out.println("Треугольник создан.");
         this.figureName = figureName;
         this.x = x;
         this.y = y;

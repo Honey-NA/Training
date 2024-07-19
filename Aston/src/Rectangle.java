@@ -3,7 +3,6 @@ public class Rectangle extends Figure implements IGeometry {
     public int x;
     public int y;
     public Rectangle(String figureName, int x, int y) {
-        System.out.println("Прямоугольник создан.");
         this.figureName = figureName;
         this.x = x;
         this.y = y;
