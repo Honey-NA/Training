@@ -22,9 +22,7 @@ public class Main {
         dog1.swim(-1);
         dog1.swim(11);
         //Проверки счетчика животных, котов и собак
-        System.out.println("Сейчас " + Animal.animalNumber + " животных.");
-        System.out.println("Сейчас " + Cat.catNumber + " котов.");
-        System.out.println("Сейчас " + Dog.dogNumber + " собак.");
+        System.out.println(Animal.number());
         //Наполнение миски и кормление котов
         Miska.getFood(50);
         ((Cat) cat1).eat(10);
@@ -64,8 +62,8 @@ public class Main {
         cir1.bgColor("blue");
         cir1.brColor("pink");
         //Вывод характеристик в консоль
-        rect1.getValues();
-        tri1.getValues();
-        cir1.getValues();
+        rect1.info();
+        tri1.info();
+        cir1.info();
     }
 }

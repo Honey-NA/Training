@@ -7,6 +7,8 @@ public abstract class Animal {
     public Animal(String name) {
         this.name = name;
     }
-
+    public static String number(){
+        return "Сейчас " + Animal.animalNumber + " животных, " + Cat.catNumber + " котов, " + Dog.dogNumber + " собак.";
+    }
 }
 

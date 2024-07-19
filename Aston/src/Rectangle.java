@@ -33,7 +33,7 @@ public class Rectangle extends Figure implements IGeometry {
     }
 
     @Override
-    public void getValues() {
+    public void info() {
         System.out.println("\nФигура: " + figureName + "\nПериметр: " + p + "\nПлощадь: " + s
                 + "\nЦвет заливки: " + bgColor + "\nЦвет границ: " + brColor);
     }

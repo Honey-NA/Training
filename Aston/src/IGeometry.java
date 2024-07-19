@@ -4,6 +4,6 @@ public interface IGeometry {
     String brColor(String color);
     int p();
     double s();
-    void getValues();
+    void info();
 }
 
