@@ -2,9 +2,9 @@
 public class Main {
     public static void main(String[] args) {
         String[] arr = {"кот", "собака", "енот", "крот", "кот", "лошадь", "олень", "собака", "тигр", "лев", "енот"};
-        UniqueWords arr1words = new UniqueWords();
-        arr1words.getWords(arr);
-        arr1words.countWords(arr);
+        UniqueWords arrWords = new UniqueWords();
+        arrWords.getWords(arr);
+        arrWords.countWords(arr);
         PhoneBook book1 = new PhoneBook();
         book1.add("Петров","79281461483");
         book1.add("Петров","79128348932");
