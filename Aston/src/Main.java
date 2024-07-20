@@ -1,10 +1,10 @@
 
 public class Main {
     public static void main(String[] args) {
-        String[] arr1 = {"кот", "собака", "енот", "крот", "кот", "лошадь", "олень", "собака", "тигр", "лев", "енот"};
+        String[] arr = {"кот", "собака", "енот", "крот", "кот", "лошадь", "олень", "собака", "тигр", "лев", "енот"};
         UniqueWords arr1words = new UniqueWords();
-        arr1words.getWords(arr1);
-        arr1words.countWords(arr1);
+        arr1words.getWords(arr);
+        arr1words.countWords(arr);
         PhoneBook book1 = new PhoneBook();
         book1.add("Петров","79281461483");
         book1.add("Петров","79128348932");

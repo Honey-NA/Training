@@ -15,7 +15,6 @@ public class PhoneBook {
         }
     }
     public void get(String surname){
-        System.out.print("Номера телефонов " + surname + ": ");
-        System.out.println(book.get(surname));
+        System.out.println("Номера телефонов " + surname + ": " + book.get(surname));
     }
 }
